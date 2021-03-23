@@ -112,7 +112,7 @@ ol {
 
 .services-title::after {
   display: block;
-  /* content: ""; */
+  content: "";
   background-color: rgb(243, 129, 129);
   width: 60px;
   height: 3px;
