@@ -1,0 +1,124 @@
+/* =======COMPONENTS======== */
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* =======END OF COMPONENTS======== */
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 1px solid orange; */
+}
+
+/*========HEADER=======*/
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 12px;
+}
+
+.logo-text a {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #95e1d3;
+  font-weight: bold;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* outline: 1px solid teal; */
+}
+.menu-nav-item {
+  margin-left: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #95e1d3;
+}
+.menu-nav-item:hover,
+.menu-nav-item:focus {
+  color: #f38181;
+  cursor: pointer;
+}
+
+/*======END HEADER=====*/
+
+/*=====SERVICES SECTION=====*/
+.services {
+  padding-top: 115px;
+}
+
+.work-with {
+  /*  display: flex;
+  justify-content: center; */
+  text-align: center;
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.services-title {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.services-title::after {
+  display: block;
+  /* content: ""; */
+  background-color: rgb(243, 129, 129);
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+/* .card-wrapper {
+}
+ */
